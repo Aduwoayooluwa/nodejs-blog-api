@@ -14,7 +14,7 @@ const PostSchema = new mongoose.Schema({
         },
         featured_image: {
             type: String,
-            required: true,
+            required: false,
         },
         author: {
             type: String,
